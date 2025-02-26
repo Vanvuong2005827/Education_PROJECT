@@ -1,0 +1,55 @@
+:root {
+  --padding-for-box: 14px;
+}
+
+body {
+  background: #d84040;
+}
+
+.bar {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  /* : center; */
+}
+
+.login {
+    margin-right: 20px;
+    width: 80px;
+    background-color: blue;
+}
+
+.menubar {
+  /* background-color: #333; */
+  width: calc(410px);
+  /* height: 100px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconbox {
+    background-color: blue;
+    width: 50px;
+}
+
+.box {
+  font-family: "Sofia Sans Semi Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  padding: calc(var(--padding-for-box) - 3px) 20px var(--padding-for-box) 20px;
+  background: #a31d1d;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.box:hover {
+  text-decoration: underline;
+  background: #c42424;
+  box-shadow: 4px 6px 14px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 6px 14px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 6px 14px 1px rgba(0, 0, 0, 0.75);
+}
